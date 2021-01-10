@@ -296,7 +296,7 @@ Exited Customers:
 
 #### 3.1.4.4 LGBM Classifier
 
-<center>![35](https://github.com/nickolasdias/topbankcompany/blob/master/image/35.png)</center>
+![35](https://github.com/nickolasdias/topbankcompany/blob/master/image/35.png)
 
 **Observations:**
 
@@ -307,7 +307,7 @@ Exited Customers:
 
 #### 3.1.4.5 KNN Classifier
 
-<center>![36](https://github.com/nickolasdias/topbankcompany/blob/master/image/36.png)</center>
+![36](https://github.com/nickolasdias/topbankcompany/blob/master/image/36.png)
 
 **Observations:**
 
