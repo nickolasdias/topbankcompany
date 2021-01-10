@@ -253,9 +253,75 @@ Exited Customers:
 - `age`and `exited`: **0.30**
 - `balance`and `exited`: **0.12**
 
-### 3.1.4 Machine Learning
+### 3.1.4 Machine Learning Modeling
 
+* Logistic Regression
+* Random Forest Classifer
+* Catboost Classifier
+* LGBM Classifier
+* KNeighbors Classifier
 
+#### 3.1.4.1 Logistic Regression
 
+![32](https://github.com/nickolasdias/topbankcompany/blob/master/image/32.png)
+
+**Observations:**
+
+- actual not churn x predict not churn: 5933
+- actual not churn x predict churn: 202
+- actual churn x predict not churn: 1320
+- actual churn x predict churn: 259
+
+#### 3.1.4.2 Random Forest Classifier
+
+![33](https://github.com/nickolasdias/topbankcompany/blob/master/image/33.png)
+
+**Observations:**
+
+- actual not churn x predict not churn: 5936
+- actual not churn x predict churn: 199
+- actual churn x predict not churn: 877
+- actual churn x predict churn: 702
+
+#### 3.1.4.3 Catboost Classifier
+
+![34](https://github.com/nickolasdias/topbankcompany/blob/master/image/34.png)
+
+**Observations:**
+
+- actual not churn x predict not churn: 5895
+- actual not churn x predict churn: 240
+- actual churn x predict not churn: 824
+- actual churn x predict churn: 755
+
+#### 3.1.4.4 LGBM Classifier
+
+![35](https://github.com/nickolasdias/topbankcompany/blob/master/image/35.png)
+
+**Observations:**
+
+- actual not churn x predict not churn: 5883
+- actual not churn x predict churn: 252
+- actual churn x predict not churn: 799
+- actual churn x predict churn: 780
+
+#### 3.1.4.5 KNN Classifier
+
+![36](https://github.com/nickolasdias/topbankcompany/blob/master/image/36.png)
+
+**Observations:**
+
+- actual not churn x predict not churn: 5813
+- actual not churn x predict churn: 322
+- actual churn x predict not churn: 1058
+- actual churn x predict churn: 521
+
+#### 3.1.4.6 Performance Comparison
+
+![37](https://github.com/nickolasdias/topbankcompany/blob/master/image/37.png)
+
+**Observations:**
+
+- Based on the Business context and in order to better accomplish the project goals, deliverables and deployment, the chosen model is **Random Forest Classifier**.
 
 # References
