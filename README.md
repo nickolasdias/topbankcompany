@@ -200,23 +200,83 @@ Exited Customers:
 - There is a balance between the number of customers who remained active with banking transactions than customers who only remained active (49.16% and 46.64%).
 
 
-#### 3.1.3.4 Bivariate Analysis - Validation of the Hypothesis
+#### 3.1.3.4 Bivariate Analysis - Some Validations of Hypothesis
 
-**Some Validations of Hypotheses**
+**H1. Male customers have more risk of leaving the bank than female customers. (FALSE)**
 
-**H1. Male customers have more risk of leaving the bank than female customers.**
+![12](https://github.com/nickolasdias/topbankcompany/blob/master/image/12.png)
 
-**H3. Old customers have a higher risk of leaving the bank than young customers.**
+**Observations:**
 
-**H5. Customers with monetary values above 100.000 euros have a low risk of leaving the bank than customers with monetary values below 100.000 euros.**
+- Female customers have a higher risk of exit than male customers.
 
-**H7. Customers who have more than 2 banking products have a low risk of leaving the bank than customers that who less than 2 banking products.**
+**H3. Old customers have a higher risk of leaving the bank than young customers. (FALSE)**
 
-**H10. Customers with credit above 650 euros have a low risk of leaving the bank than customers with credit below 650 euros.**
+![14](https://github.com/nickolasdias/topbankcompany/blob/master/image/14.png)
 
-**H11. Customers with credit cards and bank transactions have a low risk of leaving the bank.**
+**Observation:**
 
-**H14. Customers with low salaries are more likely to leave the bank than customers with medium and high salaries.**
+- Adult customers have a high risk of leaving the bank than old or young customers.
+
+**H5. Customers with monetary values above 100.000 euros have a low risk of leaving the bank than customers with monetary values below 100.000 euros. (FALSE)**
+
+**Monetary Values below 100.000 euros**
+
+![16](https://github.com/nickolasdias/topbankcompany/blob/master/image/16.png)
+
+**Observation:**
+
+- About 16% of clients with below average monetary values exited the bank.
+
+**Monetary Values above 100.000 euros**
+
+![17](https://github.com/nickolasdias/topbankcompany/blob/master/image/17.png)
+
+**Observation:**
+
+- About 25% of customers with above average monetary values left the bank.
+
+**H7. Customers who have more than 2 banking products have a low risk of leaving the bank than customers that who less than 2 banking products.(TRUE)**
+
+![20](https://github.com/nickolasdias/topbankcompany/blob/master/image/20.png)
+
+**Observation:**
+
+- Customers who have more than 2 banking products have a low exit risk than customers who have less than 2 banking products.
+
+**H10. Customers with credit above 650 euros have a low risk of leaving the bank than customers with credit below 650 euros. (TRUE)**
+
+**Credit Score below 650 euros**
+
+![23](https://github.com/nickolasdias/topbankcompany/blob/master/image/23.png)
+
+**Observation:**
+
+- About 21.68% of customers with below average credit left the bank.
+
+**Credit Score above 650 euros**
+
+![24](https://github.com/nickolasdias/topbankcompany/blob/master/image/24.png)
+
+**Observation:**
+
+- About 19.30% of customers with above average credit left the bank.
+
+**H11. Customers with credit cards and bank transactions have a low risk of leaving the bank. (FALSE)**
+
+![25](https://github.com/nickolasdias/topbankcompany/blob/master/image/25.png)
+
+**Observation:**
+
+- Customers with only bank transactions have a low risk of leaving the bank than other customers.
+
+**H14. Customers with low salaries are more likely to leave the bank than customers with medium and high salaries. (FALSE)**
+
+![28](https://github.com/nickolasdias/topbankcompany/blob/master/image/28.png)
+
+**Observations:**
+
+- Customers with high salaries (87.14%) are more likely to leave the bank than customers with low and medium salaries (3.55% and 9.31%).
 
 #### 3.1.3.5 Multivariate Analysis - Numerical Variables - Pearson's Correlation
 
