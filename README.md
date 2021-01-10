@@ -324,4 +324,38 @@ Exited Customers:
 
 - Based on the Business context and in order to better accomplish the project goals, deliverables and deployment, the chosen model is **Random Forest Classifier**.
 
+### 3.1.5 Hyperparameter Fine Tuning
+
+In this project to fine tune the hyperparameters of the classifier, we use the best parameters determined by `RandomizedSearch()`.
+
+Therefore, we apply the base model and the fitted model in the test data to check their performances.
+
+#### 3.1.5.1 Tuned Model x Base Model Performance Comparison on Test Set
+
+**Base Model Performance**
+
+![38](https://github.com/nickolasdias/topbankcompany/blob/master/image/38.png)
+
+**Observations:**
+
+- actual not churn x predict not churn: 1481
+- actual not churn x predict churn: 112
+- actual churn x predict not churn: 196
+- actual churn x predict churn: 211
+
+**Tuned Model Performance**
+
+![39](https://github.com/nickolasdias/topbankcompany/blob/master/image/39.png)
+
+**Observations:**
+
+- actual not churn x predict not churn: 1477
+- actual not churn x predict churn: 116
+- actual churn x predict not churn: 197
+- actual churn x predict churn: 210
+
+### 3.1.6 Model and Business Performance
+
+
+
 # References
