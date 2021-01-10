@@ -55,7 +55,7 @@ In this project, we developed a model that classifies customers in churn ot not.
 
 ### 3.1.1 Data Describe - Statistics Descriptive
 
-#### Numerical Variables
+#### 3.1.1.1 Numerical Variables
 
 ![01](https://github.com/nickolasdias/topbankcompany/blob/master/image/01.png)
 
@@ -68,7 +68,39 @@ In this project, we developed a model that classifies customers in churn ot not.
 - The average number of products purchased by the bank's clients is 1.53.
 - The minimum estimated salary of some people is 11.58 euros. This result is suspect compared to the average estimated salary of 99.730,08 euros.
 
-#### Categorical Variables
+#### 3.1.1.2 Checking Outliers
+
+![02](https://github.com/nickolasdias/topbankcompany/blob/master/image/02.png)
+
+**Observation:**
+
+- We can observe that the ages are characterized as outliers over 62.
+
+![03](https://github.com/nickolasdias/topbankcompany/blob/master/image/03.png)
+
+**Observation:**
+
+- We can observe that the credit score is characterized with outliers below 384.5.
+
+![04](https://github.com/nickolasdias/topbankcompany/blob/master/image/04.png)
+
+**Observation:**
+
+- We can observe that there are no outliers.
+
+![05](https://github.com/nickolasdias/topbankcompany/blob/master/image/05.png)
+
+**Observation:**
+
+- We can observe that there are no outliers, but there are many null balance values in the first quartile.
+
+![06](https://github.com/nickolasdias/topbankcompany/blob/master/image/06.png)
+
+**Observation:**
+
+- We can observe that there are no outliers.
+
+#### 3.1.1.3 Categorical Variables
 
 ![07](https://github.com/nickolasdias/topbankcompany/blob/master/image/07.png)
 
