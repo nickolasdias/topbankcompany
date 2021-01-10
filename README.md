@@ -6,7 +6,7 @@ In general, Churn is a metric that indicates the **number of customers who have 
 
 # 2.0 Business Problem
     
-TopBank is a large banking services company. It operates mainly in European countries offering financial products, from bank accounts to investments, as well as some types of insurance and investment products.
+Top Bank is a large banking services company. It operates mainly in European countries offering financial products, from bank accounts to investments, as well as some types of insurance and investment products.
 The business model of the company is service-oriented, i.e. it sells banking services to its customers through physical branches and an online portal.
 
 The company's main product is a bank account, in which the client can deposit his salary, make withdrawals, deposits and transfer to other accounts. This bank account has no cost for the client and is valid for 12 months, that is, the client needs to renew the contract of this account to continue using for the next 12 months.
@@ -358,7 +358,11 @@ Therefore, we apply the base model and the fitted model in the test data to chec
 - actual churn x predict not churn: 197
 - actual churn x predict churn: 210
 
+Analyzing the two models applied in the test data set, the **base model** has a better performance than the tuned model.
+
 ### 3.1.6 Model and Business Performance
+
+#### 3.1.6.1 Model Performance
 
 ![40](https://github.com/nickolasdias/topbankcompany/blob/master/image/40.png)
 
@@ -367,5 +371,7 @@ Therefore, we apply the base model and the fitted model in the test data to chec
 ![42](https://github.com/nickolasdias/topbankcompany/blob/master/image/42.png)
 
 ![43](https://github.com/nickolasdias/topbankcompany/blob/master/image/43.png)
+
+#### 3.1.6.2 Business Performance 
 
 # References
