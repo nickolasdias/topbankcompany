@@ -202,7 +202,21 @@ Exited Customers:
 
 #### 3.1.3.4 Bivariate Analysis - Validation of the Hypothesis
 
+**Some Validations of Hypotheses**
 
+**H1. Male customers have more risk of leaving the bank than female customers.**
+
+**H3. Old customers have a higher risk of leaving the bank than young customers.**
+
+**H5. Customers with monetary values above 100.000 euros have a low risk of leaving the bank than customers with monetary values below 100.000 euros.**
+
+**H7. Customers who have more than 2 banking products have a low risk of leaving the bank than customers that who less than 2 banking products.**
+
+**H10. Customers with credit above 650 euros have a low risk of leaving the bank than customers with credit below 650 euros.**
+
+**H11. Customers with credit cards and bank transactions have a low risk of leaving the bank.**
+
+**H14. Customers with low salaries are more likely to leave the bank than customers with medium and high salaries.**
 
 #### 3.1.3.5 Multivariate Analysis - Numerical Variables - Pearson's Correlation
 
