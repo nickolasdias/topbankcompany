@@ -364,11 +364,19 @@ Analyzing the two models applied in the test data set, the **base model** has a 
 
 #### 3.1.6.1 Model Performance
 
+**Precision and Recall versus Threshold**
+
 ![40](https://github.com/nickolasdias/topbankcompany/blob/master/image/40.png)
+
+**Precision versus Recall**
 
 ![41](https://github.com/nickolasdias/topbankcompany/blob/master/image/41.png)
 
+**Cumulative Gains Curve**
+
 ![42](https://github.com/nickolasdias/topbankcompany/blob/master/image/42.png)
+
+**Lift Curve**
 
 ![43](https://github.com/nickolasdias/topbankcompany/blob/master/image/43.png)
 
