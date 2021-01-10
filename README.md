@@ -55,4 +55,16 @@ In this project, we developed a model that classifies customers in churn ot not.
 
 ### 3.1.1 Data Describe - Statistics Descriptive
 
-#### Numerical Variables 
+#### Numerical Variables
+
+![01](https://github.com/nickolasdias/topbankcompany/blob/master/image/01.png)
+
+**Observations:**
+
+#### Categorical Variables
+
+
+
+### 3.1.2 Mental Hypothesis Map
+
+![exited](https://github.com/nickolasdias/topbankcompany/blob/master/image/exited.png)
