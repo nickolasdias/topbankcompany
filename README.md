@@ -67,4 +67,4 @@ In this project, we developed a model that classifies customers in churn ot not.
 
 ### 3.1.2 Mental Hypothesis Map
 
-![exited](https://github.com/nickolasdias/topbankcompany/blob/master/image/exited.png)
+![exited](https://github.com/nickolasdias/topbankcompany/blob/master/image/exited.jpg)
