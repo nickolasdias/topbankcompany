@@ -374,4 +374,37 @@ Analyzing the two models applied in the test data set, the **base model** has a 
 
 #### 3.1.6.2 Business Performance 
 
+**Performance of the model and results report:**
+
+
+ * What is the company's current churn rate ? The company's current **churn rate is 20.35%.**
+ 
+ 
+ * How the churn rate varies per month ? It is not possible to determine the churn variation per month, as the available data does not have information per month. What can be calculated is the churn variation per tenure (number of years that the customer was active).
+ 
+ 
+ * What is the performance of the model to label customers as churns? The model has a **precision** of **65.32%**.And it detects about **51.84%** of the clients that are in churn.
+ 
+ 
+ * What is the revenue of the company, if the company avoids that the clients enter in churn through the developed model? The revenue of the company is around 38.079.850,98 euros, considering that no client enters in churn. And the revenue lost by the company if all the 407 clients go into churn is 7.491.850,97 euros.
+ 
+**Scenario according the model:**
+
+ * Company's revenue if 211 clients don't get into churn through the model: 4.106.314,45
+ * That represents 51.84% of clients labeled in churn and 54.81% of the total revenue loss.
+ 
+**Possible measure: discount coupon or other financial incentive.**
+ * Which customers could receive an incentive and at what cost, in order to maximize the ROI (Return on investment)? (The sum of incentives shall not exceed 10.000 euros). 
+ 
+The best solution to know which customers could receive the financial incentive to maximize ROI is alternative 03, because the value of the incentive is given according to the probability of expected turnover of the model using the Backpack Problem.
+
+Therefore, we will have the following results:
+
+ * Recovered Revenue: 3,381,860.54% 
+ * Recovered from Total Revenue loss: 45.14%
+ * Investment: 10,000.00
+ * Profit: 3,371,860.54ROI: 33,718.61%
+ * Potential clients recovered acc. model: 131
+ * Potential churn reduction: 32.19%
+
 # References
