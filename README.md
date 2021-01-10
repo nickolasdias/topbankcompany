@@ -356,6 +356,12 @@ Therefore, we apply the base model and the fitted model in the test data to chec
 
 ### 3.1.6 Model and Business Performance
 
+![40](https://github.com/nickolasdias/topbankcompany/blob/master/image/40.png)
 
+![41](https://github.com/nickolasdias/topbankcompany/blob/master/image/41.png)
+
+![42](https://github.com/nickolasdias/topbankcompany/blob/master/image/42.png)
+
+![43](https://github.com/nickolasdias/topbankcompany/blob/master/image/43.png)
 
 # References
