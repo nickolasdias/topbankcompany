@@ -296,7 +296,7 @@ Exited Customers:
 
 #### 3.1.4.4 LGBM Classifier
 
-<center>![35](https://github.com/nickolasdias/topbankcompany/blob/master/image/35.png) </center>
+<center>![35](https://github.com/nickolasdias/topbankcompany/blob/master/image/35.png)</center>
 
 **Observations:**
 
@@ -307,7 +307,7 @@ Exited Customers:
 
 #### 3.1.4.5 KNN Classifier
 
-<center> ![36](https://github.com/nickolasdias/topbankcompany/blob/master/image/36.png) </center>
+<center>![36](https://github.com/nickolasdias/topbankcompany/blob/master/image/36.png)</center>
 
 **Observations:**
 
@@ -334,6 +334,8 @@ Therefore, we apply the base model and the fitted model in the test data to chec
 
 **Base Model Performance**
 
+![44](https://github.com/nickolasdias/topbankcompany/blob/master/image/44.png)
+
 ![38](https://github.com/nickolasdias/topbankcompany/blob/master/image/38.png)
 
 **Observations:**
@@ -344,6 +346,8 @@ Therefore, we apply the base model and the fitted model in the test data to chec
 - actual churn x predict churn: 211
 
 **Tuned Model Performance**
+
+![45](https://github.com/nickolasdias/topbankcompany/blob/master/image/45.png)
 
 ![39](https://github.com/nickolasdias/topbankcompany/blob/master/image/39.png)
 
