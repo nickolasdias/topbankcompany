@@ -1,4 +1,4 @@
-# Top Bank Company
+# Top Bank Company - Churn Prediction
 
 # 1.0 Context
 
@@ -68,3 +68,45 @@ In this project, we developed a model that classifies customers in churn ot not.
 ### 3.1.2 Mental Hypothesis Map
 
 ![exited](https://github.com/nickolasdias/topbankcompany/blob/master/image/exited.jpg)
+
+### 3.1.3 Exploratory Data Analysis
+
+#### 3.1.3.1 Univariate Analysis - Target
+
+![09](https://github.com/nickolasdias/topbankcompany/blob/master/image/09.png)
+
+#### 3.1.3.2 Univariate Analysis - Numerical Variable
+
+![10](https://github.com/nickolasdias/topbankcompany/blob/master/image/10.png)
+
+**Observations:**
+
+#### 3.1.3.3 Univariate Analysis - Categorical Variable
+
+![11](https://github.com/nickolasdias/topbankcompany/blob/master/image/11.png)
+
+**Observations:**
+
+#### 3.1.3.4 Bivariate Analysis - Validation of the Hypothesis
+
+
+
+#### 3.1.3.5 Multivariate Analysis - Numerical Variables - Pearson's Correlation
+
+![29](https://github.com/nickolasdias/topbankcompany/blob/master/image/29.png)
+
+**Observations:**
+
+#### 3.1.3.6 Multivariate Analysis - Categorical Variables - Cramer V
+
+![30](https://github.com/nickolasdias/topbankcompany/blob/master/image/30.png)
+
+**Observations:**
+
+#### 3.1.3.7 Multivariate Analysis - Numerical Variables and Binary Variables - Point Biserial Correlation
+
+![31](https://github.com/nickolasdias/topbankcompany/blob/master/image/31.png)
+
+**Observations:**
+
+### 3.1.4 Machine Learning
