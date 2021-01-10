@@ -400,11 +400,12 @@ The best solution to know which customers could receive the financial incentive 
 
 Therefore, we will have the following results:
 
- * Recovered Revenue: 3,381,860.54% 
- * Recovered from Total Revenue loss: 45.14%
- * Investment: 10,000.00
- * Profit: 3,371,860.54ROI: 33,718.61%
- * Potential clients recovered acc. model: 131
- * Potential churn reduction: 32.19%
+ * Recovered Revenue: 3,668,096.16
+ * % Recovered from Total Revenue loss: 48.96%
+ * Investiment: 10.000,00
+ * Profit: 3.658.096,16
+ * ROI: 36.580,96
+ * Potencial clients recovered acc. model: 137
+ * Potencial churn reduction: 33.66%
 
 # References
