@@ -1,6 +1,9 @@
-<h1> TopBank Company </h1>
-    
+# Top Bank Company
 
+# 1.0 Context
+
+# 2.0 Business Problem
+    
 TopBank is a large banking services company. It operates mainly in European countries offering financial products, from bank accounts to investments, as well as some types of insurance and investment products.
 The business model of the company is service-oriented, i.e. it sells banking services to its customers through physical branches and an online portal.
 
@@ -43,3 +46,13 @@ The data are available in this [link](https://www.kaggle.com/mervetorkan/churnda
 - **Submit a report reporting the results**.
 
 - **Answer the questions**.
+
+# 3.0 Solution
+
+In this project, we developed a model that classifies customers in churn ot not.
+
+## 3.1 Main Steps
+
+### 3.1.1 Data Describe - Statistics Descriptive
+
+#### Numerical Variables 
