@@ -442,6 +442,10 @@ Analyzing the two models applied in the test data set, the **base model** has a 
 
 ![40](https://github.com/nickolasdias/topbankcompany/blob/master/image/40.png)
 
+**Observations:**
+
+- The threshold between precision and recall is 51%.
+
 **Precision versus Recall**
 
 ![41](https://github.com/nickolasdias/topbankcompany/blob/master/image/41.png)
