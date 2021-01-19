@@ -2,7 +2,7 @@
 
 # 1.0 Context
 
-In general, Churn is a metric that indicates the **number of customers who have cancelled their contract or stopped purchasing their product** in a certain period of time. For example, customers who have cancelled their service contract or after its expiration have not renewed, are customers considered in churn.
+Churn is a metric that indicates the **number of customers who have cancelled their contract or stopped purchasing their product** in a certain period of time. For example, customers who have cancelled their service contract or after its expiration have not renewed, are customers considered in churn.
 
 # 2.0 Business Problem
     
@@ -446,17 +446,40 @@ Analyzing the two models applied in the test data set, the **base model** has a 
 
 - The threshold between precision and recall is 51%.
 
-**Precision versus Recall**
+**Cumulative Gains Curve and Lift Curve**
 
-![41](https://github.com/nickolasdias/topbankcompany/blob/master/image/41.png)
+The cumulative gain curves and lift curves are visual aids to measure the performance of the model we are working on.  Both graphs consist of an elevation curve and a baseline. And the larger the area between the elevation curve and the baseline, the better the model.
 
-**Cumulative Gains Curve**
+With this, the elevation curve is calculated that measures the effectiveness of the predictive model calculated as the relationship between the results obtained with and without the predictive model.
+
+**Interpretation of the Accumulative Gain Curve:**
+
+- The y-axis shows the percentage of positive responses. This is a percentage of the total possible responses (20% of the bank's clients churn the data set).
+
+- The x-axis shows the percentage of customers contacted, which are the 2000 customers in the test set.
+
+- Baseline (Global response rate): If we contact 20% of the customers, then we receive x% of the total positive responses.
+
+- Elevation curve: Using the model forecasts, calculate the percentage of positive responses for the percentage of customers in churn and map these points to create the elevation curve.
+
+**Lift Curve Interpretation:**
+
+- Shows the actual lift of the model we are working on relative to the base model.
+- To draw the table: Calculate 
+
 
 ![42](https://github.com/nickolasdias/topbankcompany/blob/master/image/42.png)
 
-**Lift Curve**
+**Observations:**
+
+- The cumulative gain for the model considering 20% of the sample is 58% compared to the baseline model.
 
 ![43](https://github.com/nickolasdias/topbankcompany/blob/master/image/43.png)
+
+**Observations:**
+
+- The lift curve of the model is 2.84 in relation to the lift curve of the base model.
+- The performance of the model is better than the baseline model.
 
 #### 3.1.6.2 Business Performance 
 
@@ -493,5 +516,26 @@ Therefore, we will have the following results:
  * ROI: 36.580,96
  * Potencial clients recovered acc. model: 137
  * Potencial churn reduction: 33.66%
+ 
+ ## Next Steps
+ 
+ -  Data Balance experiment and evaluation.
+ -  Study new techniques to improve the model's performance.
+ -  Deploy the model in production.
+ 
+ ##  What can be learned from this project?
+ 
+ - How a data science project works to solve a business problem.
+ - The "ordinary" model-assessment metrics might not answer the business questions.
+ - The Lift Curve and Cumulative Gains Curve are metrics to compare models' performance and can be used to prioritize clients to be contacted.
+ - The Knapsack-problem approach can be applied to solve and optimize a business problem.
 
 # References
+
+https://towardsdatascience.com/evaluate-model-performance-with-cumulative-gains-and-lift-curves-1f3f8f79da01
+
+http://www2.cs.uregina.ca/~dbd/cs831/notes/lift_chart/lift_chart.html
+
+https://www.geeksforgeeks.org/python-program-for-dynamic-programming-set-10-0-1-knapsack-problem/
+
+https://en.wikipedia.org/wiki/Customer_attrition
